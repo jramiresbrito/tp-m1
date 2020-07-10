@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Trabalho Prático - Módulo 1</title>
+  </head>
+  <body>
+    <h1>Select your color.</h1>
+    <div>
+      <ul>
+        <li>
+          R <input id="r-slider" type="range" min="0" max="255" step="3" />
+          <input id="r-value" class="c-value" type="text" size="2" disabled />
+        </li>
+        <li>
+          G <input id="g-slider" type="range" min="0" max="255" step="3" />
+          <input id="g-value" class="c-value" type="text" size="2" disabled />
+        </li>
+        <li>
+          B <input id="b-slider" type="range" min="0" max="255" step="3" />
+          <input id="b-value" class="c-value" type="text" size="2" disabled />
+        </li>
+      </ul>
+      <script src="index.js"></script>
+    </div>
+    <div class="square"></div>
+  </body>
+</html>
